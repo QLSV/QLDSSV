@@ -7,5 +7,5 @@ Hệ thống quản lý điểm sinh viên trường Đai Học Thông Tin Liên
  +Xử lý tìm kiếm.
 
 Hệ thống sử dụng các giải pháp sau để phát triển :
- +Ngôn ngữ lập trình c#.
+ +Ngôn ngữ lập trình JAVA.
  +Hệ quản trị CSDL: Microsoft SQL 2012.
