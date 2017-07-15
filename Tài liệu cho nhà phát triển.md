@@ -1,0 +1,6 @@
+- Tối ưu chương trình và xây dựng hệ thống có thể thực hiện với việc sử dụng Online. Tiện cho việc tiếp cận hệ thống của giáo viên, sinh viên
+- Bổ sung thêm nhiều chức năng nữa cho phù hợp với công tác quản lý sinh viên như đăng ký học, thời khóa biểu, lịch thi...
+- Chương trình chỉ mới cho phép số ít người tiếp cận với hệ thống, nên hướng phát triển cần phải là tối ưu trong việc phân quyền sử dụng để người dùng có thể tiếp cận với các chức năng đáp ứng yêu cầu sử dụng.
+- Phân loại người dùng (Sinh viên, giáo viên, Quản trị viên,....) đưa ra chiến lược cụ thể, thực hiện chiến lược linh hoạt, hợp lý và phù hợp với quy mô của từng trường.
+- Đảm bảo nghiêm ngặt về chất lượng của phần mềm quản lý sinh viên khi triển khai. Duy trì và thường xuyên cải tiến hệ thống quản lý chất lượng của phần mềm.
+- Tiếp tục đẩy mạnh các hình thức quảng cáo, giới thiệu sản phẩm phần mềm quản lý sinh viên đến các trường; giữ vững chế độ hỗ trợ,bảo hành cho khách hàng
