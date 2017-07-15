@@ -1,6 +1,6 @@
 CHƯƠNG 1. KHẢO SÁT, ĐẶC TẢ YÊU CẦU BÀI TOÁN
 
-I. Mô tả yêu cầu bài toán
+I. Thiết kế chức năng
 
 
 Bảng điểm bao gồm các loại sau:
