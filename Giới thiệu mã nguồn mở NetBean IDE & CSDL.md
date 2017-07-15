@@ -13,6 +13,7 @@ ngoài một gói cài đặt đầy đủ hỗ trợ tất cả các ngôn ng�
 Netbeans hỗ trợ gợi ý cú pháp rất tốt, ngoài ra còn có các tính năng mạnh mẽ như (Format code) tự động căn chỉnh mã nguồn,
 Remote FTP, SVN …. và rất nhiều tĩnh năng hữu ích khác.
 Mã nguồn Netbean IDE mới nhất hiện nay là NetBean 8.2 .
+
 2.	Hệ quản trị CSDL SQL Server
 Một cơ sở dữ liệu - CSDL(DataBase): Là một kho dữ liệu được tổ chức theo một nguyên  tắc nào đó. Đó là một tập hợp  các tập tin  có 
 liên  quan  với nhau, được thiết kế nhằm làm giảm thiểu sự dư thừa dữ liệu, đảm bảo tính tin cậy khi truy xuất dữ liệu. Các tập tin này chứa các thông tin biểu diễn các
