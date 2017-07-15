@@ -1,4 +1,5 @@
 Tài liệu người dùng
+
 Người dùng được chia làm hai đối tượng chính:quản lý hệ thống và người truy cập hệ thống để xem thông tin.
 -    Quản lý hệ thống có quyền cập nhật, chỉnh sửa thông tin trong toàn hệ thống. Với hệ thống “quản lý sinh viên” người quản lý hệ thống có chức năng cập nhật thông tin về sinh viên như: họ tên , ngày sinh, quê quán, ngành hoc, lớp học, điểm.
        + Quản Lý Sinh Viên : Hệ thống sẽ nhập danh sách sinh viên có sẵn từ phòng  đào tạo, thêm  sửa  thông  tin sinh viên, và xóa sinh viên trong trường hợp sinh viên bị thôi học hoặc nguyên nhân nào đó.
