@@ -2,10 +2,7 @@ CHƯƠNG 1. KHẢO SÁT, ĐẶC TẢ YÊU CẦU BÀI TOÁN
 
 I. Mô tả yêu cầu bài toán
 
-- Xây dựng chương trình “quản lý sinh viên” nhằm hỗ trợ cho công tác quản lý thông tin sinh viên, điểm… Bài toán đặt ra là phân tích thiết kế hệ thống thông tin vấn đề đặt ra là vì sao phải quản lý ? và quản lý như thế nào để công việc có hiệu quả, tiết kiệm được thời gian cho cán bộ nhân viên
 
-
-- Bộ phận quản lý điểm lập danh sách thi, lập bảng điểm theo lớp, bảng điểm cho từng cá nhân dựa theo danh sách lớp, hồ sơ sinh viên… Bộ phận này sẽ lấy thông tin điểm quá trình từ giáo viên giảng dạy nhập vào các bảng điểm, cập nhật điểm thi ngay sau khi có kết quả thi. Tổng hợp điểm và tính ra điểm trung bình của từng sinh viên theo hệ số 10, hệ chữ, và hệ 4. Tất cả được in ra để gửi tới các lớp và được lưu lại để tiện theo dõi.
 Bảng điểm bao gồm các loại sau:
 
 -Bảng điểm tổng hợp: là bảng điểm của tất cả các môn. Trong đó sẽ có điểm quá trình, điểm thi và điểm trung bình môn.
@@ -17,26 +14,9 @@ Bảng điểm bao gồm các loại sau:
 -	Bảng điểm cá nhân: là bảng điểm chứa tất thông tin điểm tất cả các môn học của 1 sinh viên Với tình hình hiện nay, với số lượng sinh viên ngày càng nhiều, công tác quản lý điểm cho sinh viên ngày càng được chú trọng hơn. Đặc biệt hơn nữa là có sự hỗ trợ to lớn từ máy tính,. Việc xây dựng hệ thống quản lý điểm bằng máy tính dựa trên phương pháp quản lý mới,khắc phục được những nhược điểm của hệ thống cũ để xây dựng hệ thống mới khả thi hơn.Công tác quản lí điểm phục vụ cho sinh viên là chủ yếu, ngoài ra bảng điểm sinh viên được lưu trữ ở kho hồ sơ của trường. Theo hệ thống cũ, mọi hồ sơ được lưu bằng các văn bản, giấy tờ. hiện nay để làm giảm các công việc thì các bảng điểm và các công tác tính điểm được thực hiện bởi máy tính và phần mềm quản lí điểm sinh viên. Như vậy phần mềm này đã góp sức làm giảm thiểu sai sót, và làm công việc quản lí điểm tốn ít thời gian hơn.
 Hiện nay các trường đại học của Việt Nam, cũng như các doanh nghiệp đang trong tiến trình ứng dụng mạnh mẽ sự phát triển của công nghệ thông tin vào quản lý. Mới đầu chỉ là những máy tính cá nhân đơn giản và cho đến nay là các mạng thông tin phức tạp. Tuy nhiên do đặc điểm công nghệ thông tin của Việt Nam mới trong quá trình phát triển nên mặc dù đã quan tâm đến việc ứng dụng công nghệ thông tin vào quản lý nhưng các phần mềm hệ thống, các phần mềm trợ giúp hoặc phần mềm quản lý có thể thay thế hoàn toàn công việc thủ công chưa được quan tâm. Với chương trình “quản lý điểm sinh viên” này hy vọng sẽ giúp cho công tác quản lý sinh viên diễn ra đơn giản và tiết kiệm thời gian hơn
 
-II. Mô tả các loại người dùng
-    
-    Người dùng được chia làm hai đối tượng chính:quản lý hệ thống và người truy cập hệ thống để xem thông tin.
-     
--    Quản lý hệ thống có quyền cập nhật, chỉnh sửa thông tin trong toàn hệ thống. Với hệ thống “quản lý sinh viên” người quản lý hệ thống có chức năng cập nhật thông tin về sinh viên như: họ tên , ngày sinh, quê quán, ngành hoc, lớp học, điểm.
-      
-      + Quản Lý Sinh Viên : Hệ thống sẽ nhập danh sách sinh viên có sẵn từ phòng  đào tạo, thêm  sửa  thông  tin sinh viên, và xóa sinh viên trong trường hợp sinh viên bị thôi học hoặc nguyên nhân nào đó.
-      
-      + Quản Lý Môn Học -Thêm môn học: Thêm môn học cho sinh viên sau khi có được danh sách các môn học trong học kỳ của sinh viên.Trong trường hợp có  sinh viên học lại hoặc học thêm môn học khác, bộ môn phải thêm vào. Và hệ thống quản lý cũng phải thêm môn học cho sinh viên để quản lý điểm môn đó. 
-   Xóa môn học: nếu môn học bị thêm nhầm cho sinh viên, hệ thống có thể xóa đi.
-      
-      +Theo Dõi Xử Lý Điểm: Quá trình này, là quá trình cốt lõi của hệ   thống, nó bao gồm các chức năng con .
-      
-      +Nhập Điểm: Hệ thống sẽ  nhận điểm từ giáo viên bộ môn và nhập vào hệ thống điểm. Lần 2 hệ thống sẽ nhập nguồn điểm từ kết quả thi của sinh viên trong kỳ thi. Sau đó , tổng điểm của cả hai lần và đưa ra kết quả cuối cùng. 	
-     
-     +Sửa Điểm: Sau khi báo điểm cho sinh viên nếu có sai xót có thể sửa lại
-     
--   Người truy cập hệ thống là những người cần lấy thông tin cần thiết từ hệ thống. Và đối tượng này khi truy cập vào hệ thống để xem thông tin cần có tài khoản. Đối tương này chỉ có quyền truy nhập xem thông tin chứ không thể cập nhật,sửa đổi thông tin trong hệ thống.
 
-III. Biểu đồ lớp
+
+II. Biểu đồ lớp
 
 Sơ đồ phân rã chức năng của hệ thống (BFD)
 
@@ -75,9 +55,163 @@ Biểu đồ quan hệ (ER)
 
  
 
-CHƯƠNG 2.	XÂY DỰNG HỆ THỐNG
+CHƯƠNG 2.	THIẾT KẾ CƠ SỞ DỮ LIỆU : THIẾT KẾ VÀ MÔ TẢ MÔ HÌNH DỮ LIỆU VẬT LÝ
 
-I. Các giao diện phần mềm
+I.Cơ sở dữ liệu
+
+o	Bảng tblDangNhap (fldTenDangNhap, fldMatKhau, fldHoTen, fldEmail)
+
+CREATE TABLE tblDangNhap(
+
+fldTenDangNhap    nvarchar(50) NOT NULL PRIMARY KEY,
+
+fldMatKhau        nvarchar(20) NOT NULL,
+
+fldHoTen          nvarchar(50) NOT NULL,
+
+fldEmail          nvarchar (50) NOT NULL)  
+
+
+![bangdn](https://user-images.githubusercontent.com/27815316/28241364-536e4fe8-69bd-11e7-8f64-af8af20790a2.png)
+
+
+o	Bảng tblDiem (fldMaSV, fldMaMH, fldLanThi, fldHeSo, fldDiem, fldTrangThai)
+
+CREATE TABLE tblDiem(
+
+fldMaSV      nvarchar(10) NOT NULL PRIMARY KEY,
+
+fldMaMH      nvarchar(10) NOT NULL,
+
+fldLanThi    tinyint      NOT NULL,
+
+fldHeSo      tinyint      NOT NULL,
+
+fldDiem      float        NOT NULL,
+
+fldTrangThai bit         NOT NULL)
+  
+  
+  ![bangdiem](https://user-images.githubusercontent.com/27815316/28241374-7f4710d2-69bd-11e7-8d83-f47eebd91878.png)
+  
+
+o	Bảng tblGiangVien (fldMaGV, fldHoTenGV, fldMaMH, fldNgaySinh, fldGioiTinh, fldEmail, fldDiaChi, fldSDT) 
+
+CREATE TABLE tblGiangVien(
+
+fldMaGV        nvarchar(10) NOT NULL PRIMARY KEY,
+
+fldHoTenGV     nvarchar(70) NOT NULL,
+
+fldMaMH        nvarchar(10) NOT NULL,
+
+fldNgaySinh    datetime     NOT NULL,
+
+fldGioiTinh    bit          NOT NULL,
+
+fldEmail       nvarchar (50) NOT NULL,
+
+fldDiachi      nvarchar (70) NOT NULL,
+
+fldSDT         nvarchar (15) NOT NULL)  
+
+
+
+
+![banggiangvien](https://user-images.githubusercontent.com/27815316/28241377-958438ac-69bd-11e7-8dc0-11ea749dcc6f.png)
+
+
+
+o	Bảng tblKhoa (MaSV, MaMH, DiemKT, DiemThi)
+
+CREATE TABLE tblKhoa(
+
+fldMaKhoa       nvarchar(10) NOT NULL PRIMARY KEY,
+
+fldTenKhoa      nvarchar (50) NOT NULL,
+
+fldSDT          nvarchar (15) NOT NULL)
+
+
+![bangkhoa](https://user-images.githubusercontent.com/27815316/28241380-a8d6fc50-69bd-11e7-87f5-75e68bcbc1f2.png)
+
+
+o	Bảng tblLop (fldMaLop, fldTenLop, fldMaKhoa, fldKhoaHoc)
+
+CREATE TABLE tblLop(
+
+fldMaLop   	nvarchar(10) NOT NULL PRIMARY KEY,
+
+fld TenLop    nvarchar (50) NOT NULL,
+
+fldMaKhoa     nvarchar (10) NOT NULL,
+
+fldKhoaHoc    nvarchar (20) NOT NULL) 
+
+
+![banglop](https://user-images.githubusercontent.com/27815316/28241386-b95e295e-69bd-11e7-9004-18a3759ea6e4.png)
+
+
+o	Bảng tblMonHoc (fldMaMH, fldTenMh, fldSoTrinh, fldHinhThucThi, fldHocKy, fldPhongHoc)
+
+CREATE TABLE tblMonHoc(
+
+fldMaMH 			nvarchar (10) NOT NULL PRIMARY KEY,
+
+fldTenMH      	nvarchar (20) NOT NULL,
+
+fldSoTrinh		int			NOT NULL,
+
+fldHinhThucThi 	nvarchar (20) NOT NULL,
+
+fldHocKy			int NOT NULL,
+
+fldPhongHoc		nvarchar (10) NOT NULL)  
+
+
+
+![bangmh](https://user-images.githubusercontent.com/27815316/28241393-cbbbf284-69bd-11e7-8705-609c77f7f637.png)
+
+
+
+
+
+
+
+o	Bảng tblSinhVien ( fldMaSV, fldHoten, fldMaLop, fldHeDaoTao, fldNgaySinh, fldDiaChi, fldGioiTinh, fldSDT)
+
+CREATE TABLE tblSinhVien(
+
+fldMaSV		nvarchar (10) NOT NULL PRIMARY KEY,
+
+fldHoTen 		nvarchar (70) NOT NULL,
+
+fldMaLop		nvarchar (10) NOT NULL,
+
+fldHeDaoTao   nvarchar (50) NOT NULL,
+
+fldNgaySinh	datetime		NOT NULL,
+
+fldDiaChi		nvarchar (100)NOT NULL,
+
+fldGioiTinh	bit			NOT NULL,
+
+fldSDT		nvarchar (15) NOT NULL)
+ 
+
+
+![bangsv](https://user-images.githubusercontent.com/27815316/28241396-d808e0b0-69bd-11e7-92c5-a81ac41379db.png)
+
+
+
+
+
+
+
+
+
+
+II. Các giao diện phần mềm
 	
   Giao diện đăng nhập 
  
